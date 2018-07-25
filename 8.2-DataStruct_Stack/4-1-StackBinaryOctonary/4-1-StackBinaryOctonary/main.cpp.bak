@@ -1,0 +1,46 @@
+//
+//  main.cpp
+//  4-1-StackBinaryOctonary
+//
+//  Created by mtianyan on 2018/7/25.
+//  Copyright © 2018年 mtianyan. All rights reserved.
+//
+
+#include "MyStack.h"
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+
+#define BINARY 2
+#define OCTONARY 8
+#define HEXADECIMAL 16
+
+int main(void)
+{
+    MyStack<int> *pStack = new MyStack<int>(30);
+    int N = 1348;
+    int mod = 0;
+    while (N !=0)
+    {
+        mod = N % BINARY;
+        pStack->push(mod);
+        N = N / BINARY;
+    }
+    pStack->stackTraverse(false);
+    
+    pStack->clearStack();
+    cout << endl;
+    int M = 1348;
+    while (M !=0)
+    {
+        mod = M % OCTONARY;
+        pStack->push(mod);
+        M = M / OCTONARY;
+    }
+    pStack->stackTraverse(false);
+    cout << endl;
+    
+    delete pStack;
+    pStack = NULL;
+    return 0;
+}
