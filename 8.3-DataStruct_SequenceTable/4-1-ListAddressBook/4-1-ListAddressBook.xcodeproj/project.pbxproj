@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C60816B3210ADC8C001F7C8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C60816B2210ADC8C001F7C8D /* main.cpp */; };
+		C60816B3210ADC8C001F7C8D /* main.cpp.bak in Sources */ = {isa = PBXBuildFile; fileRef = C60816B2210ADC8C001F7C8D /* main.cpp.bak */; };
+		C60816BA210AE3D1001F7C8D /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C60816B9210AE3D1001F7C8D /* Person.cpp */; };
+		C60816BC210AE400001F7C8D /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C60816BB210AE400001F7C8D /* Node.cpp */; };
+		C60816C1210AE488001F7C8D /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C60816C0210AE488001F7C8D /* List.cpp */; };
+		C60816C3210AE652001F7C8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C60816C2210AE652001F7C8D /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,14 @@
 
 /* Begin PBXFileReference section */
 		C60816AF210ADC8C001F7C8D /* 4-1-ListAddressBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4-1-ListAddressBook"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C60816B2210ADC8C001F7C8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C60816B2210ADC8C001F7C8D /* main.cpp.bak */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.cpp.bak; sourceTree = "<group>"; };
+		C60816B9210AE3D1001F7C8D /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		C60816BB210AE400001F7C8D /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		C60816BD210AE44B001F7C8D /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		C60816BE210AE46B001F7C8D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C60816BF210AE47A001F7C8D /* List.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		C60816C0210AE488001F7C8D /* List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
+		C60816C2210AE652001F7C8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +68,14 @@
 		C60816B1210ADC8C001F7C8D /* 4-1-ListAddressBook */ = {
 			isa = PBXGroup;
 			children = (
-				C60816B2210ADC8C001F7C8D /* main.cpp */,
+				C60816B2210ADC8C001F7C8D /* main.cpp.bak */,
+				C60816B9210AE3D1001F7C8D /* Person.cpp */,
+				C60816BB210AE400001F7C8D /* Node.cpp */,
+				C60816BD210AE44B001F7C8D /* Node.h */,
+				C60816BE210AE46B001F7C8D /* Person.h */,
+				C60816BF210AE47A001F7C8D /* List.h */,
+				C60816C0210AE488001F7C8D /* List.cpp */,
+				C60816C2210AE652001F7C8D /* main.cpp */,
 			);
 			path = "4-1-ListAddressBook";
 			sourceTree = "<group>";
@@ -118,7 +136,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C60816B3210ADC8C001F7C8D /* main.cpp in Sources */,
+				C60816BC210AE400001F7C8D /* Node.cpp in Sources */,
+				C60816C1210AE488001F7C8D /* List.cpp in Sources */,
+				C60816BA210AE3D1001F7C8D /* Person.cpp in Sources */,
+				C60816C3210AE652001F7C8D /* main.cpp in Sources */,
+				C60816B3210ADC8C001F7C8D /* main.cpp.bak in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
