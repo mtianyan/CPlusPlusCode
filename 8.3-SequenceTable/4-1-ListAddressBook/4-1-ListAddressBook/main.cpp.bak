@@ -1,0 +1,37 @@
+//
+//  main.cpp
+//  4-1-ListAddressBook
+//
+//  Created by mtianyan on 2018/7/27.
+//  Copyright © 2018年 mtianyan. All rights reserved.
+//
+
+#include <stdlib.h>
+#include "List.h"
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    Node node1;
+    node1.data.name = "mtianyan1";
+    node1.data.phone = "18092671234";
+    Node node2;
+    node2.data.name = "mtianyan2";
+    node2.data.phone = "18487251234";
+    
+    List *pList = new List();
+    
+    pList->ListInsertHead(&node1);
+    pList->ListInsertHead(&node2);
+    
+    pList->ListInsertTail(&node1);
+    pList->ListInsertTail(&node2);
+    
+    pList->ListTraverse();
+    
+    delete pList;
+    pList = NULL;
+    return 0;
+}

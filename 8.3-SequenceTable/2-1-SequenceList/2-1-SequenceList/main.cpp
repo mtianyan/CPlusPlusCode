@@ -84,9 +84,14 @@ int main()
     cout << "ttttttttttttttt" << endl;
     
     list1->ClearList();
+    if(list1->ListEmpty())
+    {
+        cout << "List 是空的" <<endl;
+    }
     list1->ListTraverse();
-     cout << "nnnnnnnnnnnnnnn" << endl;
+    cout << "nnnnnnnnnnnnnnn" << endl;
     
+    cout << list1->ListLength() << endl;
     delete list1;
     return 0;
 }
